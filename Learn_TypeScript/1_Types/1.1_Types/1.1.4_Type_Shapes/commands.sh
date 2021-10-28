@@ -1,3 +1,3 @@
 #!/bin/bash
-tsc index.ts
+tsc
 node index.js
