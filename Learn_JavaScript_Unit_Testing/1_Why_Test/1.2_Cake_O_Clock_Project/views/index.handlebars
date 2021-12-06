@@ -1,0 +1,138 @@
+<div class="banner">
+    <h1>CAKE BAR</h1>
+</div>
+
+<div class="body-container">
+    <div class="menu">
+        <form id="cake-form" action="/place-order" method="post">
+            <div class="form-container">
+                <div class="form-row">
+                    <h2>Enter your name</h2>
+                </div>
+
+                <div class="form-row">
+                    <div class="name-flex">
+                        <div class="name-col-1">
+                            <input type="text" id="name" name="name" value="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <h2>Pick a cake type</h2>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-col">
+                        <label for="plain">
+                            <input type="radio" id="plain" name="cakeType" value="Plain">Plain<br>
+                        </label>
+                    </div>
+                    <div class="input-col">
+                        <label for="whole-wheat">
+                            <input type="radio" id="whole-wheat" name="cakeType" value="Whole Wheat">Whole Wheat<br>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <h2>Add fillings</h2>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-col">
+                        <label for="strawberries">
+                            <input type="checkbox" id="strawberries" name="fillings"
+                                value="Strawberries">Strawberries<br>
+                        </label>
+                        <label for="blueberries">
+                            <input type="checkbox" id="blueberries" name="fillings" value="Blueberries">Blueberries<br>
+                        </label>
+                        <label for="banana">
+                            <input type="checkbox" id="banana" name="fillings" value="Banana">Banana<br>
+                        </label>
+                        <label for="apple">
+                            <input type="checkbox" id="apple" name="fillings" value="Apple">Apple<br>
+                        </label>
+                    </div>
+                    <div class="input-col">
+                        <label for="macadamia-nuts">
+                            <input type="checkbox" id="macadamia-nuts" name="fillings" value="Macadamia Nuts">Macadamia
+                            Nuts<br>
+                        </label>
+                        <label for="sprinkles">
+                            <input type="checkbox" id="sprinkles" name="fillings" value="Sprinkles">Sprinkles<br>
+                        </label>
+                        <label for="chocolate-chips">
+                            <input type="checkbox" id="chocolate-chips" name="fillings"
+                                value="Chocolate Chips">Chocolate chips<br>
+                        </label>
+                        <label for="bacon">
+                            <input type="checkbox" id="bacon" name="fillings" value="Bacon">Bacon<br>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-col">
+                        <h2>Choose a size</h2>
+                    </div>
+                    <div class="input-col">
+                        <h2>Set a pick up</h2>
+                    </div>
+                </div>
+
+                <div class="form-row select-row">
+                    <div class="select-col">
+                        <div class="styled-select">
+                            <select id="select-stack" name="size">
+                                <option id="single" value="1">Single Stack</option>
+                                <option id="double" value="2">Double Stack</option>
+                                <option id="triple" value="3">Triple Stack</option>
+                                <option id="quadruple" value="4">Quadruple Stack</option>
+                                <option id="quintuple" value="5">Quintuple Stack</option>
+                                <option id="sextuple" value="6">Sextuple Stack</option>
+                                <option id="septuple" value="7">Septuple Stack</option>
+                                <option id="octuple" value="8">Octuple Stack</option>
+                                <option id="nonuple" value="9">Nonuple Stack</option>
+                                <option id="decuple" value="10">Decuple Stack</option>
+                                <option id="centuple" value="100">Centuple Stack</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="select-col">
+                        <div class="styled-select">
+                            <select id="select-pickUp" name="pickUp">
+                                <option id="8:00" value="8:00">8:00</option>
+                                <option id="9:00" value="9:00">9:00</option>
+                                <option id="10:00" value="10:00">10:00</option>
+                                <option id="11:00" value="11:00">11:00</option>
+                                <option id="12:00" value="12:00">12:00</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row place-order-div">
+                    <input class="button" id="submit-order" type="submit" value="Place order">
+                </div>
+            </div>
+        </form>
+
+        <form action="/clear-order" method="post">
+            <div class="form-container">
+                <div class="form-row place-order-div">
+                    <input class="button" id="clear-order" type="submit" value="Clear">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="order">
+        <h2 id="deliver-to">deliver to: <span>{{order.name}}</span></h2>
+        <h2 id="cake-type">cake: <span>{{order.cakeType}}</span></h2>
+        <h2 id="fillings">fillings: <span>{{order.fillings}}</span></h2>
+        <h2 id="size">pancake count: <span>{{order.size}}</span></h2>
+        <h2 id="pickUp">pick up time: <span>{{order.pickUp}}</span></h2>
+    </div>
+</div>
