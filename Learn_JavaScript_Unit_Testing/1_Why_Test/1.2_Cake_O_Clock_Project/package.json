@@ -1,0 +1,30 @@
+{
+    "name": "cake-bar-js",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "test": "bin/wdio-test"
+    },
+    "dependencies": {
+        "body-parser": "~1.17.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.3",
+        "express": "~4.15.2",
+        "express-handlebars": "^3.0.0",
+        "jsdom": "9.12.0",
+        "mongoose": "^4.11.13",
+        "morgan": "~1.8.1",
+        "serve-favicon": "~2.4.2"
+    },
+    "devDependencies": {
+        "chai": "3.5.0",
+        "eslint-config-google": "^0.9.1",
+        "mocha": "^3.0.0",
+        "supertest": "^3.0.0",
+        "wdio-mocha-framework": "^0.4.0",
+        "wdio-phantomjs-service": "^0.2.2",
+        "wdio-spec-reporter": "^0.1.2",
+        "webdriverio": "^4.2.3"
+    }
+}
