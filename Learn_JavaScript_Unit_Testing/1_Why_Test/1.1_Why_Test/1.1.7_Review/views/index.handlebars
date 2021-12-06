@@ -1,10 +1,8 @@
 <div class="tracker">
     <div id="tracker-meter" class="tracker-meter">
-        <!--
-      <div class="image-container">
-        <img alt-text="bug-image" src="images/bug.svg">
-      </div>
-      -->
+        <div class="image-container">
+            <img alt-text="bug-image" src="images/bug.svg">
+        </div>
     </div>
     <div class="tracker-name">
         <p>BUG-O-METER</p>
@@ -118,12 +116,18 @@
             </div>
         </form>
 
+        <!-- Change the below action to fix the regression -->
+        <form action="/clear-order" method="post">
+            <div class="form-container">
+                <div class="form-row place-order-div">
+                    <input class="button" id="clear-order" type="submit" value="Clear">
+                </div>
+            </div>
+        </form>
     </div>
 
     <div class="order">
-        <!-- Add your name after <span> -->
-        <h2 id="deliver-to">deliver to: <span>My-Name{{order.name}}</span></h2>
-
+        <h2 id="deliver-to">deliver to: <span>{{order.name}}</span></h2>
         <h2 id="cake-type">cake: <span>{{order.cakeType}}</span></h2>
         <h2 id="fillings">fillings: <span>{{order.fillings}}</span></h2>
         <h2 id="size">pancake count: <span>{{order.size}}</span></h2>
