@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+
+<body>
+    <section class="overlay">
+        <h1>Sign Up</h1>
+        <p>Create an account:</p>
+        <form action="submission.html" method="GET">
+            <!--Add the minlength and maxlength attributes to the input fields-->
+            <label for="username">Username:</label>
+            <br>
+            <input id="username" name="username" type="text" minlength="3" maxlength="15" required>
+            <br>
+            <label for="pw">Password:</label>
+            <br>
+            <input id="pw" name="pw" type="password" minlength="8" maxlength="15" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>

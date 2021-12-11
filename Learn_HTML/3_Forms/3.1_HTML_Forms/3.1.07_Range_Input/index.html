@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Range Input</title>
+</head>
+
+<body>
+    <section id="overlay">
+        <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg"
+            alt="Davie's Burgers Logo" id="logo">
+        <hr>
+        <form>
+            <h1>Create a burger!</h1>
+            <section class="protein">
+                <label for="patty">What type of protein would you like?</label>
+                <input type="text" name="patty" id="patty">
+            </section>
+            <hr>
+            <section class="patties">
+                <label for="amount">How many patties would you like?</label>
+                <input type="number" name="amount" id="amount">
+            </section>
+            <hr>
+
+            <section class="cooked">
+                <label for="doneness">How do you want your patty cooked</label>
+                <br>
+                <span>Rare</span>
+                <!--Add your code below-->
+                <input type="range" name="doneness" id="doneness" min="0" max="5" step="0.5">
+                <span>Well-Done</span>
+            </section>
+
+        </form>
+    </section>
+</body>
+
+</html>
