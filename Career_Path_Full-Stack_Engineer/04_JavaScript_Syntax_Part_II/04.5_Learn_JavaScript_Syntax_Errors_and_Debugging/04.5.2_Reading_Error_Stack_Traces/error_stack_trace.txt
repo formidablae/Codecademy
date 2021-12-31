@@ -1,0 +1,20 @@
+Based on the following error stack trace, fill in the answers to the questions below:
+
+------------------------------------------------------------------
+
+/home/ccuser/workspace/learn-javascript-debugging-code/script.js:5
+if (numberSum > total;) {
+                     ^
+            
+SyntaxError: Unexpected token ;
+
+------------------------------------------------------------------
+
+From what file was this error thrown?
+1 - Answer: script.js
+On what line of that file was this error thrown?
+2 - Answer: 5
+What type of error was thrown in this stack trace?
+3 - Answer: SyntaxError
+What is the description of the error in this stack trace?
+4 - Answer: Unexpected token ;
