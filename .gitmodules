@@ -1,0 +1,27 @@
+[submodule "Welcome_to_Codecademy"]
+	path = Welcome_to_Codecademy
+	url = git@github.com:formidablae/Codecademy_Welcome_to_Codecademy.git
+[submodule "Learn_TypeScript"]
+	path = Learn_TypeScript
+	url = git@github.com:formidablae/Codecademy_Learn_TypeScript.git
+[submodule "Learn_PHP"]
+	path = Learn_PHP
+	url = git@github.com:formidablae/Codecademy_Learn_PHP.git
+[submodule "Learn_JavaScript_Unit_Testing"]
+	path = Learn_JavaScript_Unit_Testing
+	url = git@github.com:formidablae/Codecademy_Learn_JavaScript_Unit_Testing.git
+[submodule "Learn_JavaScript"]
+	path = Learn_JavaScript
+	url = git@github.com:formidablae/Codecademy_Learn_JavaScript.git
+[submodule "Learn_HTML"]
+	path = Learn_HTML
+	url = git@github.com:formidablae/Codecademy_Learn_HTML.git
+[submodule "Learn_Build_Tools"]
+	path = Learn_Build_Tools
+	url = git@github.com:formidablae/Codecademy_Learn_Build_Tools.git
+[submodule "Career_Path_Full-Stack_Engineer"]
+	path = Career_Path_Full-Stack_Engineer
+	url = git@github.com:formidablae/Codecademy_Career_Path_Full-Stack_Engineer.git
+[submodule "Career_Path_Back-End_Engineer"]
+	path = Career_Path_Back-End_Engineer
+	url = git@github.com:formidablae/Codecademy_Career_Path_Back-End_Engineer.git
