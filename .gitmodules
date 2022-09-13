@@ -25,3 +25,6 @@
 [submodule "Career_Path_Back-End_Engineer"]
 	path = Career_Path_Back-End_Engineer
 	url = git@github.com:formidablae/Codecademy_Career_Path_Back-End_Engineer.git
+[submodule "Learn_React"]
+	path = Learn_React
+	url = https://github.com/formidablae/Codecademy_Learn_React
