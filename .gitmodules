@@ -34,3 +34,6 @@
 [submodule "Learn_What_to_Learn"]
 	path = Learn_What_to_Learn
 	url = https://github.com/formidablae/Codecademy_Learn_What_to_Learn
+[submodule "Learn_Go"]
+	path = Learn_Go
+	url = https://github.com/formidablae/Codecademy_Learn_Go
