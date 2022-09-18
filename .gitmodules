@@ -31,3 +31,6 @@
 [submodule "Foundations_of_Cloud_Computing"]
 	path = Foundations_of_Cloud_Computing
 	url = https://github.com/formidablae/Codecademy_Foundations_of_Cloud_Computing
+[submodule "Learn_What_to_Learn"]
+	path = Learn_What_to_Learn
+	url = https://github.com/formidablae/Codecademy_Learn_What_to_Learn
