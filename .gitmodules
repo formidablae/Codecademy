@@ -28,3 +28,6 @@
 [submodule "Learn_React"]
 	path = Learn_React
 	url = https://github.com/formidablae/Codecademy_Learn_React
+[submodule "Foundations_of_Cloud_Computing"]
+	path = Foundations_of_Cloud_Computing
+	url = https://github.com/formidablae/Codecademy_Foundations_of_Cloud_Computing
