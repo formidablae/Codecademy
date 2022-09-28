@@ -37,3 +37,6 @@
 [submodule "Learn_Go"]
 	path = Learn_Go
 	url = https://github.com/formidablae/Codecademy_Learn_Go
+[submodule "Choosing_a_Programming_Language"]
+	path = Choosing_a_Programming_Language
+	url = https://github.com/formidablae/Codecademy_Choosing_a_Programming_Language
