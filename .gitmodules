@@ -40,3 +40,6 @@
 [submodule "Choosing_a_Programming_Language"]
 	path = Choosing_a_Programming_Language
 	url = https://github.com/formidablae/Codecademy_Choosing_a_Programming_Language
+[submodule "Learn_Node.js"]
+	path = Learn_Node.js
+	url = https://github.com/formidablae/Codecademy_Learn_Node.js
