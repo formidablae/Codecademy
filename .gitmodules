@@ -45,4 +45,4 @@
 	url = https://github.com/formidablae/Codecademy_Learn_Node.js
 [submodule "Learn_React_Router"]
 	path = Learn_React_Router
-	url = git@gitlab.com:bonafidae/codecademy_learn_react_router_course.git
+	url = git@github.com:formidablae/Codecademy_Learn_React_Router.git
